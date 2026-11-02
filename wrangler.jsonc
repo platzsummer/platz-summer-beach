@@ -2,5 +2,8 @@
   // Cloudflare Workers static site: serves everything in ./public
   "name": "platz-summer-beach",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": "./public" }
+  "assets": { "directory": "./public" },
+  // public address at platz-summer-beach.<account>.workers.dev
+  "workers_dev": true,
+  "preview_urls": false
 }
